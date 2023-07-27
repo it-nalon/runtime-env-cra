@@ -13,7 +13,7 @@
   },
   "homepage": "https://github.com/kHRISl33t/runtime-env-cra",
   "scripts": {
-    "test": "jest --coverage --silent --config jest.config.js",
+    "test": "jest --coverage --silent=false --config jest.config.js",
     "test:watch": "jest --watch",
     "lint": "eslint \"{lib,test}/**/*.js\"",
     "lint:fix": "eslint \"{lib,test}/**/*.js\" --fix",

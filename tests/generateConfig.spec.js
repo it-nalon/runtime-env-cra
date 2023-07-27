@@ -132,7 +132,7 @@ describe('runtime-env-cra', () => {
 
     expect(config).toBeDefined();
     expect(config).toEqual(
-      'window.__RUNTIME_CONFIG__ = {"TEST_VAR":"TEST_VALUE","TEST_VAR2":"TEST_VALUE2","TEST_VAR3":"a full sentence with spaces and\\t\\ttabs"};',
+      'window.__RUNTIME_CONFIG__ = {"TEST_VAR":"TEST_VALUE","TEST_VAR2":"TEST_VALUE2","TEST_VAR3":"a full sentence with spaces and\\t\\ttabs","TEST_VAR4":"{\\"key\\": \\"#000000\\"}"};',
     );
   });
 });
